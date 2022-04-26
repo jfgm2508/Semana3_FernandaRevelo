@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Semana3_FernandaRevelo.MainPage">
+
+    <StackLayout>
+        <Frame BackgroundColor="#B5F577" Padding="18" CornerRadius="0">
+            <Label Text="BIENVENIDO" HorizontalTextAlignment="Center" TextColor="#E7F4F1" FontSize="24" BackgroundColor="#000000"/>
+        </Frame>
+        <Entry x:Name="txtUsuario" Placeholder="Ingrese su usuario"/>
+        <Entry x:Name="txtClave" Placeholder="Ingrese la clave" IsPassword="True"/>
+
+        <Button x:Name="btnAbrir" Text="LOGIN" Clicked="btnAbrir_Clicked"/>
+    </StackLayout>
+
+</ContentPage>
